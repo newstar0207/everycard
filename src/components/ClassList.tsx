@@ -13,6 +13,7 @@ const Layout = styled.div`
 `;
 
 const StyledDiv = styled.div`
+  padding-top: 30px;
   color: gray;
 `;
 

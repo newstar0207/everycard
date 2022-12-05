@@ -6,7 +6,7 @@ const Layout = styled.div`
   margin: 70px auto;
   display: grid;
   grid-template-columns: 2fr 5fr;
-  border: 1px solid;
+  grid-gap: 10px;
 `;
 
 const ClassLayout = () => {
