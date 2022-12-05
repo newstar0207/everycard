@@ -7,12 +7,18 @@ const Layout = styled.div`
   border: 1px solid;
 `;
 
+const ContentLayout = styled.div`
+  padding: 40px 40px;
+`;
+
 const Class = () => {
   return (
     <Layout>
       <ClassInfo />
-      <ClassNavi />
-      <VocaList />
+      <ContentLayout>
+        <ClassNavi />
+        <VocaList />
+      </ContentLayout>
     </Layout>
   );
 };
